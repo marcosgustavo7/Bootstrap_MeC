@@ -1,0 +1,320 @@
+
+main {
+    background-color: rgb(230, 230, 230);
+}
+#cox {
+width: 250px;
+height: 250px;
+padding: 10px;
+margin-left: 30px;
+width: 300px;
+}
+#abr {
+    width: 250px;
+height: 250px;
+padding: 10px;
+width: 300px;
+margin-left: 40px;
+
+}
+#sal {
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 50px;
+   
+}
+
+.text3 {
+    margin-left: 60px;
+    margin-bottom: 25px;
+    
+}
+
+.text2 {
+    margin-left: 100px;
+}
+
+#header {
+    height: 280px;
+    width: 100%;
+    background-color: rgb(245, 149, 13);
+}
+
+
+
+main > div > h1 {
+    color: rgb(255, 255, 255);
+
+    text-shadow: 5px 5px 5px rgb(160, 77, 0);
+}
+
+div > button {
+    width: 10px;
+
+}
+div > button > img {
+    width: 30px;
+    margin-right: 100px;
+    
+}
+
+.btn-custom {
+	padding: 1px 15px 3px 2px;
+	border-radius: 50px;
+    background-color: white;
+}
+
+.btn-icon {
+	padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.btn-group{
+    float:right;
+    margin-top: 100px;
+}
+
+#img1 {
+ margin-left: 210px;
+}
+
+
+div > div > div > img {
+    width: 8000px;
+    height: 600px;
+    
+}
+.carousel-inner{
+    width: 700px;
+    height: 500px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+
+#btnmodal {
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#fecham {
+    width: 100px;
+}
+#caixam {
+    width: 50px;
+}
+
+/* Formulário */
+
+.center{
+    margin-left: 525px;
+}
+
+#email{
+    margin-left: 350px;
+    width: 600px;
+}
+
+#senha{
+    margin-left: 350px;
+    width: 600px;
+}
+#check{
+    margin-left: 350px;
+}
+#envia{
+    margin-left: 600px;
+}
+/* Fim do Formulário */
+
+@media (max-width: 550px) {
+    #img1{ margin-left: 10px;
+
+    }
+    #header {
+        height: 450px;
+        width: 100%;
+        background-color: rgb(245, 149, 13);
+    }
+    div > div > div > img {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .carousel-inner{
+        width: 280px;
+        height: 400px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .btn-group{
+        float:right;
+        margin-top: 50px;
+    }
+    .container {
+        margin-left: -60px;
+    }
+    .col-sm-4{
+        width: 260px;
+    }
+    #cox {
+        width: 340px;
+        height: 250px;
+        padding: 10px;
+        margin-left: -5px;
+
+        }
+        #abr {
+            width: 320px;
+        height: 250px;
+        padding: 10px;
+        width: 300px;
+        margin-left: 35px;
+        
+        }
+        #sal {
+            width: 305px;
+            height: 250px;
+            padding: 10px;
+            margin-left: 30px;
+           
+        } 
+        .text2{
+            margin-left: 60px;
+            margin-bottom: 25px;
+        }
+        .carousel-inner{
+            margin-bottom: -100px;
+        }
+        .center{
+            margin-left:20px;
+            margin-top: 50px;
+        }
+        
+        #email{
+            margin-left: 20px;
+            width: 250px;
+        }
+        
+        #senha{
+            margin-left: 20px;
+            width: 250px;
+        }
+        #check{
+            margin-left: 20px;
+            
+        }
+        #envia{
+            margin-left: 100px;
+        }
+        #btnmodal {
+            margin-left: 50px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    }
+    @media (min-width: 550px) and (max-width: 989px){
+        #img1{ margin-left: 0px;
+
+        }
+        #header {
+            height: 250px;
+            width: 100%;
+            background-color: rgb(245, 149, 13);
+        }
+        div > div > div > img {
+            width: 100%;
+            height: 100%;
+            
+        }
+        .carousel-inner{
+            width: 480px;
+            height: 400px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+        .btn-group{
+            margin: right;
+            margin-right: 150px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .container {
+            margin-left: -60px;
+            margin-bottom: 200px;
+        }
+        .col-sm-4{
+            margin-top: 60px;
+            width: 260px;
+            margin-left: 170px;
+            margin-right: 100px;
+        }
+        #cox {
+            width: 550px;
+            height: 450px;
+            padding: 10px;
+            margin-left: -110px;
+    
+            }
+            #abr {
+                width: 550px;
+                height: 450px;
+                padding: 10px;
+                margin-left: -110px;
+            
+            }
+            #sal {
+                width: 550px;
+            height: 450px;
+            padding: 10px;
+            margin-left: -110px;
+            } 
+            .text2{
+                font-size: 30pt;
+                margin-left: 60px;
+            }
+            .text3{
+                font-size: 30pt;
+                margin-left: 60px;
+            }
+            .carousel-inner{
+                margin-bottom: -100px;
+            }
+            .center{
+                margin-left:120px;
+                margin-top: 50px;
+                font-size: 30pt;
+            }
+            
+            #email{
+                margin-left: 20px;
+                width: 520px;
+            }
+            
+            #senha{
+                margin-left: 20px;
+                width: 520px;
+            }
+            #check{
+                margin-left: 20px;
+                
+            }
+            #envia{
+                margin-left: 240px;
+                width: 100px;
+                height: 50px;
+                font-size: 15pt;
+            }
+            #btnmodal {
+                margin-left: 180px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+                width: 240px;
+                height: 50px;
+                font-size: 15pt;
+            }
+        }
+    }
